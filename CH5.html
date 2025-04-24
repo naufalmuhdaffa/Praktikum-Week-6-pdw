@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koleksi Kemasan Sachet</title>
+        <link rel="stylesheet" href="StyleCH5.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <center>
+            <h1>Shigure Ui</h1>
+            <ul>
+                <li>
+                    <h2 id="video">Video Yakult</h2>
+                    <hr>
+                    <video controls height="300px" loop autoplay muted preload="auto">
+                        <source src="yogSothoth.mp4" type="video/mp4">
+                        <track kind="captions" src="yogSothoth.mp4" srclang="en" label="English"></track>
+                    </video>
+                </li>
+                <li>
+                    <h2 id="audio">Audio Negeri Abadi</h2>
+                    <hr>
+                    <audio controls>
+                        <source src="namelessFaces.mp3" type="audio/mp3">
+                    </audio>
+                </li>
+                <li>
+                    <h2 id="gambar">Gambar Kemasan Sachet</h2>
+                    <hr>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="ichikaWindows.png">
+                        <source media="(max-width: 1200px)" srcset="Niyaniya.jpg">
+                        <img src="ichikaWindows.png" alt="ichika" style="width: 500px;">
+                    </picture>
+                </li>
+            </ul>
+        </center>
+        <script src="jsCH5.js"></script>
+    </body>
+</html>

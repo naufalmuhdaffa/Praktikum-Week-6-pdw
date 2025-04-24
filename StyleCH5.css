@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJsdXUlMjB3aGl0ZXxlbnwwfHx8fDE2ODQ5NTY1NzE&ixlib=rb-4.0.3&q=80&w=1080");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+
+h2 {
+  font-family: "Lobster Two", cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #733c3c;
+  background: #e4aec5;
+  color: #361500;
+  box-shadow: 1px 1px 2px #c69b7b;
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
